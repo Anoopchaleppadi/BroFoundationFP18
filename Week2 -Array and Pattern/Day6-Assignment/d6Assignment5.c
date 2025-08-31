@@ -18,7 +18,7 @@ int isPrime(int num) {
 int main() {
     int arr[] = {10, 11, 14, 3, 9, 7, 15, 18};
     int n = sizeof(arr)/sizeof(arr[0]);
-    int newArr[n]; // temporary array
+    int newArr[n];
     int j = 0;
 
     for(int i = 0; i < n; i++) {
